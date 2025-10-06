@@ -1,0 +1,97 @@
+.make{
+    padding: 205px 0 0 0;
+    background-color: $make-color;
+
+    &__box{
+        display: flex;
+            flex-direction: row-reverse;
+            gap: 129px;
+    }
+
+    &__title{
+        width: 400px;
+        color: $title-color;
+font-size: 40px;
+font-weight: 800;
+line-height: 1.286; /* 51.44px */
+letter-spacing: 1.6px;
+margin-bottom: 4px;
+    }
+
+    &__span{
+        color: $accent-color;
+    }
+
+    &__subtitle{
+        width: 360px;
+        color: $title-color;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.286; /* 20.576px */
+letter-spacing: 0.64px;
+    }
+    &__link{
+        color: $accent-color;
+font-size: 18px;
+font-weight: 800;
+line-height: normal;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        flex-wrap: nowrap;
+        gap: 36px;
+    }
+
+    &__lists{
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    &__item{
+        margin-top: 139px;
+        &:last-child{
+            margin-top: 79px;
+            align-self: flex-start;
+        }
+    }
+
+    &__items{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 29px 31px 30px 49px;
+        background-image: linear-gradient(151deg, $linear-color 3.87%, $accent-color 110.68%);
+        background-repeat: no-repeat;
+        background-size: 5px 223px;
+        background-color: $main-color;
+        border-radius: 4px;
+        box-shadow: 7px 10px 50px 0 #E8E2F0;
+
+        margin: 0;
+    }
+    &__icon{
+        fill: $accent-color;
+        width: 24px;
+height: 24px;
+margin-bottom: 2px;
+    }
+    &__caption{
+        color: $item-color;
+font-size: 22px;
+font-weight: 700;
+line-height: 1.286; /* 28.292px */
+letter-spacing: 0.88px;
+    }
+    &__text{
+        color: $paragraf-color;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.286; /* 20.576px */
+letter-spacing: 1.2px;
+    }
+}

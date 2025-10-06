@@ -1,0 +1,45 @@
+.hero{
+    padding: 150px 0 154px 0;
+    background-image: url(../img/hero-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: $make-color;
+
+    &__box{
+        display: flex;
+    }
+
+    &__title{
+        width: 460px;
+        color: $main-color;
+font-size: 54.764px;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 18px;
+    }
+
+    &__subtitle{
+        width: 421px;
+        color: $main-color;
+font-size: 18.255px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 38px;
+    }
+
+    &__btn{
+        padding: 15px 60px 13px 59px;
+        border-radius: 4px;
+border: 1px solid $border-color;
+background: $btn-color;
+        color: $main-color;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
+    }
+    &__img{
+        width: 656px;
+    }
+}

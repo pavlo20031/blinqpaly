@@ -1,0 +1,118 @@
+.what{
+    padding: 0 0 256px 0;
+    background-image: url(../img/what-bg.webp), linear-gradient(151deg, $linear-color 3.87%, $accent-color 110.68%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    & > .container{
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__img{
+        transform: translateX(-200px);
+    }
+
+
+
+    &__container{
+        transform: translateX(50px);
+
+    }
+
+    &__title{
+        width: 483px;
+        color: $main-color;
+font-size: 40px;
+font-weight: 800;
+line-height: 1.286; /* 51.44px */
+letter-spacing: 4px;
+margin-bottom: 39px;
+    }
+
+    &__span{
+        color: $accent-color;
+    }
+
+    &__subtitle{
+        width: 490px;
+        color: $main-color;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.286; /* 20.576px */
+letter-spacing: 0.64px;
+    }
+
+    &__text{
+        width: 367px;
+        color: $main-color;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.286; /* 20.576px */
+letter-spacing: 0.64px;
+margin-bottom: 11px;
+    }
+
+    &__headline{
+        color: $button-color;
+text-align: center;
+font-size: 21.123px;
+font-weight: 900;
+line-height: 1.286; /* 27.164px */
+letter-spacing: 1.584px;
+text-transform: uppercase;
+    }
+
+    &__underline{
+        color: $button-color;
+text-align: center;
+font-size: 14.082px;
+font-weight: 700;
+line-height: 1.286; /* 18.109px */
+letter-spacing: 0.563px;
+margin-top: 4px;
+    }
+
+    &__box{
+        background-image: url(../img/box-bg.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 65px 136px 66px 152px;
+        border-radius: 10px;
+        display: flex;
+justify-content: center;
+align-items: center;
+gap: 71px;
+position: absolute;
+bottom: -3285px;
+
+    }
+
+    &__caption{
+        color: $box-color;
+font-size: 40px;
+font-weight: 800;
+line-height: 1.286; /* 51.44px */
+letter-spacing: 1.6px;
+    }
+
+    &__tagline{
+        color: $span-color;
+    }
+
+    &__button{
+        box-shadow: 0px 5px 11px 3px rgba(255,188,81,0.8);
+        border-radius: 4px;
+background: $button-color;
+padding: 17px 60px 16px 61px;
+        color: $main-color;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+    }
+}

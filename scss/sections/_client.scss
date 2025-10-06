@@ -1,0 +1,27 @@
+.client{
+    padding: 71px 0 70px 0;
+    &__bg{
+    background-image: url(../img/client-bg.webp); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 139px;
+    }
+    &__icon{
+        fill: $main-color;
+        width: 66.535px;
+height: 35.076px;
+    }
+    &__item:nth-child(4){
+        .client__icon{
+            fill: $black-color;
+        opacity: 0.4;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.payment{
+    padding: 0 0 4px 0;
+
+    &__box{
+        display: flex;
+        gap: 124px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__subject{
+        color: $subtitle-color;
+font-size: 12.785px;
+font-weight: 700;
+line-height: 1.286; /* 16.441px */
+letter-spacing: 0.511px;
+    }
+
+    &__title{
+        width: 254px;
+        color: $title-color;
+font-size: 36.528px;
+font-weight: 800;
+line-height: 1.286; /* 46.975px */
+letter-spacing: 1.461px;
+margin-bottom: 4px;
+margin-top: 4px;
+    }
+
+    &__span{
+        color: $accent-color;
+    }
+
+    &__subtitle{
+        width: 330px;
+        color: $title-color;
+font-size: 14.611px;
+font-weight: 700;
+line-height: 1.286; /* 18.79px */
+letter-spacing: 0.584px;
+margin-bottom: 16px;
+    }
+
+    &__link{
+color: $accent-color;
+font-size: 18px;
+font-weight: 800;
+line-height: normal;
+    }
+}
